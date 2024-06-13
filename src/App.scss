@@ -1,0 +1,36 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .search-panel-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    // background-color: red;
+
+    #search-pan {
+      padding: 10px;
+      border-radius: 8px;
+      outline: none;
+      border: 1px solid black;
+    }
+
+    button {
+      padding: 10px;
+      width: 80px;
+      border-radius: 8px;
+      color: white;
+      background-color: black;
+    }
+
+  }
+
+  .api-info {
+
+  }
+
+}
